@@ -1,0 +1,105 @@
+* {
+  background-color: #f8c8dc;
+  color: black;
+  font-family: 'Nunito';
+}
+/* 
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* background: linear-gradient(45deg, #113727, #1dd1a1); */
+
+.player {
+  align-items: center;
+  width: 300px;
+  /* background: #fff; */
+  /*   margin: 100px; */
+  padding: 20px 14px 8px 14px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 10px 2px 90px -11px whitesmoke;
+  -webkit-box-shadow: 10px 2px 90px -11px whitesmoke;
+  -moz-box-shadow: 10px 2px 90px -11px whitesmoke;
+  border: none;
+  margin: auto;
+  padding: 10px;
+}
+
+.imgBx img {
+  width: 100%;
+  height: auto;
+  border: none;
+  border-radius: 10px;
+}
+
+.player audio {
+  /* width: 100%; */
+  border-radius: 6px;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.first {
+  text-align: justify;
+  margin: auto;
+  width: 80%;
+  font-size: 25px;
+}
+.header {
+  text-align: center;
+  font-size: 29px;
+}
+
+.column-4 {
+  float: left;
+  width: 21%;
+  padding: 10px;
+  margin: 20px;
+  height: 250px;
+}
+
+.project-1 {
+  background: url('../images/project-left.jpeg');
+  background-size: cover;
+}
+
+.project-2 {
+  /* background-color: white; */
+  text-align: center;
+  font-style: italic;
+}
+
+.project-3 {
+  text-align: center;
+  font-style: italic;
+}
+
+.project-4 {
+  text-align: center;
+  font-style: italic;
+  /* height: 100px;
+  width: 100px; */
+}
+.conclusion {
+  height: fit-content;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media screen and (max-width: 450px) {
+  .options {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.title {
+  text-align: center;
+}
